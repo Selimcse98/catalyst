@@ -1,5 +1,6 @@
 #!/usr/bin/php
 <?php
+
 $servername = "localhost";
 $dbname = "catalyst_db";
 $username = "root";
@@ -77,4 +78,5 @@ function titleCase($string)
 }
 
 $conn->close(); 
+
 ?>
